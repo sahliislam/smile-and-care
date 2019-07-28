@@ -3,58 +3,144 @@
     <head>
 <title>Smile&Care</title>
 <link rel="stylesheet" href="../care&smile/materialize.min.css">
+<link rel="stylesheet" href="../care&smile/file.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <script src="../care&smile/materialize.min.js"></script>
-<script src="../care&smile/home.js"></script>
+<script src="https://code.jquery.com"></script>
+<script src="../care&smile/file.js"></script>
     </head>
     <body>
-        <div class="container">
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">sport</a></li>
+            <li><a href="#!">regime alimentaire</a></li>
+            <li class="divider"></li>
+          </ul>
+          <ul id="dropdown2" class="dropdown-content">
+              <li><a href="#!">exercice à la maison</a></li>
+              <li><a href="#!">Penser positivitement</a></li>
+              <li class="divider"></li>
+            </ul>
+          <nav>
+            <div class="nav-wrapper #ff6d00 orange accent-4">
+              <img src="../care&smile/LOGO-Nature-Bien-etre-rond-405-371.png" id="logoj">
+              <a href="../care&smile/home.html" class="brand-logo">Smile&Care</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="../care&smile/home.html">Acceuil</a></li>
+                <li><a href="badges.html">Qui sommes nous!</a></li>
+                <li><a href="badges.html">Contact</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">santé physique<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">santé mentale<i class="material-icons right">arrow_drop_down</i></a></li>
+              </ul>
+            </div>
+          </nav>
+        <div class>
         <div class="slider">
             <ul class="slides">
               <li>
                 <img src="../care&smile/world-nature-full-hd-wallpaper-6105440.jpg"> 
                 <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  <h3>ADOPTEZ LE RYTHME DE LA NATURE,SON SECRET,C'EST LA PATIENCE</h3>
+                  <h5 class="light grey-text text-lighten-3">RALPH WALDO EMERSON</h5>
                 </div>
               </li>
               <li>
                 <img src="../care&smile/67406468_643958382750902_8244449518653800448_n.png"> 
                 <div class="caption left-align">
-                  <h3>Left Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  <h3>SI VOUS VOULEZ QUE LA VIE VOUS SOURIRE,APPORETEZ LUI VOTRE BONNE HUMEUR</h3>
+                  <h5 class="light grey-text text-lighten-3">SPIONZA</h5>
                 </div>
               </li>
               <li>
                 <img src="../care&smile/62519051_2309502015964136_3423759662774747136_n.png"> 
                 <div class="caption right-align">
-                  <h3>Right Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  <h3>LE BONHEUR C'EST DE REALISER SA NATURE PROFONDE</h3>
+                  <h5 class="light grey-text text-lighten-3">SPIONZA</h5>
                 </div>
               </li>
               <li>
-                <img src="../care&smile/61032549_873511313009299_5581514166717382656_n.png"> 
-                <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                <img src="../care&smile/61032549_873511313009299_5581514166717382656_n.png" > 
+                <div class="caption center-align" >
+                  <h3>PRENDS SOIN DE TON CORPS POUR QUE TON AME AIT L'ENVIE DE L'HABITER</h3>
+                  <h5 class="light grey-text text-lighten-3">MAUD GONTIER</h5>
                 </div>
               </li>
             </ul>
           </div>
-   
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
+        <section class="cadre1">
+        <div class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image container">
+                  <img src="../care&smile/la-norvege-est-le-pays-le-plus-heureux-du-monde_0.jpg" >
+                </div>
+                <div class="card-content">
+                  <p>Selon un rapport des Nations Unies publié mercredi, la Finlande s’est hissée au premier rang des pays où les gens sont les plus heureux.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">poursuivre</a>
+                </div>
+              </div>
+            </div>
+         
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image container">
+                      <img src="../care&smile/shutterstock_277748333.jpg" >
+                      <span class="card-title" id="t2">Le lien entre stress et mauvaise alimentation</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Le stress peut être un problème en soi, mais il peut également parfois conduire à des modes de vie peu sains</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">poursuivre</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                      <div class="card-image container">
+                        <img src="../care&smile/i44332-5-sports-efficaces-pour-avoir-de-belles-jambes.jpg" >
+                        <span class="card-title" id="t2">Pratiquer du sport rendrait plus heureux que l’argent</span>
+                      </div>
+                      <div class="card-content">
+                        <p>Si les bienfaits du sport sur la santé physique ne sont plus à démontrer, il semblerait qu’il soit également excellent pour la santé mentale. Selon une récente étude, pratiquer une activité physique rendrait plus heureux que l’argent.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">poursuivre</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </section>
+            <footer class="page-footer #ff6d00 orange accent-4">
+                <div class="container">
+                  <div class="row">
 
+                    <div class="col l4 offset-l2 s12 m6">
+                      <h5 class="white-text">for more information contact us :</h5>
+                      <a class="grey-text text-lighten-3" href="#!">twitter </a>
+                        <img src="../care&smile/logo.png" class="lo1">
+                        <a class="grey-text text-lighten-3" href="#!">instagram</a>
+                        <img src="../care&smile/instagram.png" class="lo1">
+                       
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-copyright">
+                  <div class="container">
+                  © 2019 Copyright Smile&Care
+                  </div>
+                </div>
+              </footer>
+        <script>M.AutoInit();
+          document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.slider');
+                var instances = M.Slider.init(elems, {});
+              }); </script>
+              <script>$(".dropdown-trigger").dropdown();</script>
 
     </body>
 </html>
