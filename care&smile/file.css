@@ -1,12 +1,17 @@
 #logoj
-{font-weight: 70px;
-    height: 65px;
-padding-right: 15px;
+{font-weight: 60px;
+    height: 60px;
+padding-right: 10px;
+padding-left: 5PX;
+padding-top: 5px;
 }
 .card-image{
     height: auto;
     width: 400px;
     border: none;
+}
+#ph{
+    width: 100px;
 }
 p {
     text-align: center;
@@ -27,8 +32,53 @@ p {
 .lo1
 {font-weight: 70px;
     height: 65px;
-padding-right: 50px;
+
 padding-top: 30px;
 }
+#t2
+{
+    color:black;   
+}
+h4{
+    text-align: center;
+    text-shadow: 10px;
+    color: #ec7819;
+padding-bottom: 40px;
 
+}
+#t1
+{
+    color: black;
+}
+#l1{
+    padding-right: 60px;
+}
+#l2{
+    padding-right: 60px;
+}
+#l3{
+    padding-right: 60px;
+}
+.page2{
+    background-image: url(../care&smile/80de4634-4767-4a86-a72f-bd9de2bac22b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
 
+.paragraphe{
+    text-align: center;
+    text-size-adjust: 100px;
+    letter-spacing: 3px;
+    line-height: 2;
+    color:black;
+    font-style: gras italic;
+}
+h3{
+    color:black;
+}
+
+footer{
+    padding-top: 200px;
+}
